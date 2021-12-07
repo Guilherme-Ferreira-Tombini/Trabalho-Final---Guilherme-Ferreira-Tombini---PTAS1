@@ -1,0 +1,30 @@
+{
+  "name": "sample-nodejs-express-mongodb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "admin-bro": "^4.0.1",
+    "admin-bro-expressjs": "^2.1.1",
+    "admin-bro-mongoose": "^0.5.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.18.2",
+    "bootstrap": "^4.2.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.7",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemon": "^2.0.14",
+    "serve-favicon": "~2.4.5"
+  }
+}
